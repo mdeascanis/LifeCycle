@@ -13,4 +13,44 @@ public class MainActivity extends AppCompatActivity {
 
         Log.v("Matt", "onCreate has been called");
     }
+
+    @Override
+    protected void onStart(){
+        Log.v("Matt", "");
+
+    }
+
+    @Override
+    protected void onResume(){
+        Log.v("Matt", "");
+
+    }
+
+    @Override
+    protected void onRestart(){
+        Log.v("Matt", "");
+
+    }
+
+    @Override
+    protected void onPause(){
+        Log.v("Matt", "");
+
+    }
+
+    @Override
+    protected void onStop(){
+        Log.v("Matt", "");
+
+    }
+
+    @Override
+    protected void onDestroy(){
+        Log.v("Matt", "");
+
+    }
+
+
+
+
 }
